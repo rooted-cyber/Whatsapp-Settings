@@ -70,6 +70,7 @@ echo -e "\033[1;93m"
 clear
 echo "please wait....."
 tsu -c rm -Rf /data/data/com.whatsapp/files/Stickers
+tsu -c rm -f /data/data/com.whatsapp/databases/stickers.db
 sleep 5
 echo "Successfully deleted stickers"
 sleep 2

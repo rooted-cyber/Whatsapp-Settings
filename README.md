@@ -5,5 +5,5 @@ apt-get install tsu
 tsu
 git clone https://github.com/Android-Maruf/Whatsapp-Settings
 cd Whatsapp-Settings
-bash menu.sh
+bash Whatsapp_menu.sh
 root needed

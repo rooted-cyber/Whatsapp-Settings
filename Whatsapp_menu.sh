@@ -1,6 +1,7 @@
 apt update
 apt upgrade
 apt-get install tsu
+clear
 echo -e "\033[1;92m"
 echo "_ _ _ _  _ ____ ___ ____ ____ ___  ___  
 | | | |__| |__|  |  [__  |__| |__] |__] 

@@ -43,6 +43,7 @@ sleep 5
 echo
 echo "Successfully cleared data"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 2 ];then
@@ -53,6 +54,7 @@ tsu -c rm -f /data/data/com.whatsapp/databases/msgstore.db
 sleep 5
 echo "successfully chat deleted"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 3 ];then
@@ -63,6 +65,7 @@ tsu -c rm -Rf /data/app/com.whatsapp*
 sleep 5
 echo "Successfully uninstalled (reboot needed)"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 4 ];then
@@ -74,6 +77,7 @@ tsu -c rm -f /data/data/com.whatsapp/databases/stickers.db
 sleep 5
 echo "Successfully deleted stickers"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 5 ];then
@@ -84,6 +88,7 @@ tsu -c rm -Rf /data/data/com.whatsapp/files/Logs
 sleep 5
 echo "Successfully deleted Whatsapp Logs"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 6 ];then
@@ -94,6 +99,7 @@ tsu -c cp -Rf /data/data/com.whatsapp/files/Logs /sdcard/WHATSAPP-FILES/Logs
 sleep 5
 echo "Successfully Copied Whatsapp Logs in WHATSAPP-FILES"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 7 ];then
@@ -103,6 +109,7 @@ echo "please wait........"
 tsu -c cp -Rf /data/data/com.whatsapp/files/Stickers /sdcard/WHATSAPP-FILES
 echo "Successfully Copied Stickers in WHATSAPP-FILES"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 8 ];then
@@ -113,6 +120,7 @@ tsu -c cp -Rf /data/data/com.whatsapp/files/Avatars /sdcard/WHATSAPP-FILES/Avata
 sleep 5
 echo "Successfully Copied Whatsapp Avatars in WHATSAPP-FILES"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 9 ];then
@@ -123,6 +131,7 @@ tsu -c rm -Rf /data/data/com.whatsapp/files/Avatars
 sleep 5
 echo "Successfully Deleted Whatsapp Avatars"
 sleep 2
+cd $HOME/Whatsapp-Settings
 bash menu.sh
 fi
 if [ $opt -eq 10 ];then

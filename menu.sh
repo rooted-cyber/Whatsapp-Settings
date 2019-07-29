@@ -19,11 +19,14 @@ echo "6.Copy Whatsapp Logs"
 echo "7.Copy Whatsapp Stickers"
 echo "8.Copy Whatsapp Avatars"
 echo "9.Whatsapp Avatars Delete"
+echo "10.Whatsapp Chat Backup"
+echo "11.Whatsapp Chat Restore"
+echo "12.Whatsapp setting Update"
 echo
 echo -e "\033[1;93m"
 echo "Without Root"
 echo
-echo "10.Whatsapp Anti-Ban Method in hindi"
+echo "13.Whatsapp Anti-Ban Method in hindi"
 
 
 echo -e "\e[1;91m"
@@ -122,6 +125,26 @@ sleep 2
 bash menu.sh
 fi
 if [ $opt -eq 10 ];then
+echo "Please wait......"
+tsu -c cp -f /data/data/com.whatsapp/databases/msgstore.db /sdcard/WHATSAPP-FILES
+sleep 3
+echo "Successfully Backuped"
+fi
+if [ $opt -eq 11 ];then
+echo "please wait....."
+tsu -c cp -f /sdcard/WHATSAPP-FILES/msgstore.db /data/data/com.whatsapp/databases
+echo "Successfully restored"
+fi
+if [ $opt -eq 12 ];then
+echo "please wait......"
+rm -Rf $HOME/Whatsapp-Settings
+cd $HOME
+git clone https://github.com/android-rooted/Whatsapp-Settings
+cd Whatsapp-Settings
+bash set.sh
+fi
+
+if [ $opt -eq 13 ];then
 clear
 echo -e "\033[1;96m"
 sleep 2

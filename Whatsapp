@@ -1,3 +1,7 @@
 #!//data/data/com.termux/files/usr/bin/sh
-cd $HOME/Whatsapp-Settings
-bash menu.sh
+cd $HOME
+cd Whatsapp-Settings
+ls
+sleep 2
+chmod 777 *
+./menu.sh

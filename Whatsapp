@@ -4,4 +4,4 @@ cd Whatsapp-Settings
 ls
 sleep 2
 chmod 777 *
-./menu.sh
+bash menu.sh

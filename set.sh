@@ -17,4 +17,4 @@ sleep 3
 toilet -F gay Complete
 echo
 echo -e "\033[1;96m"
-echo "Whatsapp Command dal ke use kr sakte ho"
+echo "( Whatsapp ) Command dal ke use kr sakte ho"

@@ -170,7 +170,7 @@ clear
 echo -e "\033[1;92m Backuping ........."
 sleep 2
 cp -Rf /data/data/com.whatsapp/files/Stickers /sdcard/WHATSAPP-FILES/BACKUP_STICKER
-cp -f /data/data/com.whatsapp/databases/stickers db /sdcard/WHATSAPP-FILES/BACKUP_STICKER
+cp -f /data/data/com.whatsapp/databases/stickers.db /sdcard/WHATSAPP-FILES/BACKUP_STICKER
 clear
 echo -e "\033[1;93m Successfully Backuped"
 Whatsapp

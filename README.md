@@ -1,6 +1,6 @@
 # Whatsapp-Settings
 # Installation:- 
-<pre $ apt update
+<pre> $ apt update
  $ apt upgrade
  $ apt-get install tsu
  $ apt-get install git

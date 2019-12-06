@@ -31,7 +31,7 @@ chmod 777 $PREFIX/bin/Whatsapp
 clear
 printf "\033[96m [√] Successfully setup\n\n Now u can use Whatsapp command"
 fi
-if [ -f /system/xbin/su ];then
+if [ -f /system/bin/su ];then
 clear
 echo -e "\033[96m Your phone  root"
 else

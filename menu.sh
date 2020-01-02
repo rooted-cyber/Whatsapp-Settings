@@ -31,16 +31,16 @@ chmod 777 $PREFIX/bin/Whatsapp
 clear
 printf "\033[96m [√] Successfully setup\n\n Now u can use Whatsapp command"
 fi
-if [ -f /system/bin/su ];then
+su -c cd /dev/block
+if [ -e bootdevice ];then
 clear
 echo -e "\033[96m Your phone  root"
 else
 clear
 printf "\033[91m [×] Your phone not root \n\n [*] First root your phone then use this !!! \n\n"
-exit 0
 fi
 lal="\e[91m"
-
+cd $HOME
 echo -e "\033[1;92m"
 figlet Whatsapp | toilet -f term -F gay
 figlet Menu | toilet -f term -F gay

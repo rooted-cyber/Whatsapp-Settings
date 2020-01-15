@@ -25,11 +25,13 @@ printf "\033[94m [+] Installing tsu.....\n"
 sleep 1
 apt-get install tsu
 clear
+cd ~/Whatsapp-Settings
 printf "\033[95m [+] Installing Whatsapp command.....\n"
 cp -f Whatsapp $PREFIX/bin
 chmod 777 $PREFIX/bin/Whatsapp
 clear
-printf "\033[96m [√] Successfully setup\n\n Now u can use Whatsapp command"
+printf "\033[96m [√] Successfully setup\n\n Now u can use this command :- Whatsapp"
+read
 fi
 su -c cd /dev/block
 if [ -e bootdevice ];then

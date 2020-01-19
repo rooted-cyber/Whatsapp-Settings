@@ -2,6 +2,7 @@
 cd $PREFIX/bin
 if [ -e Whatsapp ];then
 clear
+cd ~/Whatsapp-Settings
 printf "\033[96m Requirement installed\n\n"
 else
 clear
@@ -42,7 +43,7 @@ clear
 printf "\033[91m [×] Your phone not root \n\n [*] First root your phone then use this !!! \n\n"
 fi
 lal="\e[91m"
-cd $HOME
+cd $HOME/Whatsapp-Settings
 echo -e "\033[1;92m"
 figlet Whatsapp | toilet -f term -F gay
 figlet Menu | toilet -f term -F gay
